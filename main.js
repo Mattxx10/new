@@ -69,3 +69,11 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+function openWindow(x) {
+  document.getElementById(x).style.display ="block";
+}
+
+function closeWindow(x) {
+  document.getElementById(x).style.display ="none";
+}

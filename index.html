@@ -24,7 +24,19 @@
     <div class = "subheader">
 		<span class="txt-type" data-wait="4000" data-words='["Developer", "Designer", "Creator"]'></span>
     </div>
-    <p class="desktoplinks"><a href="#">PORTFOLIO</a>  <a href="#">CONTACT</a>  <a href="#">RESUME</a>  <a href="#">ABOUT ME</a></p>
+    
+    <p class="desktoplinks"><a href="#">PORTFOLIO</a>  <a href="#">CONTACT</a>  <a href="#">RESUME</a>  <a href="#" onclick="openWindow('aboutme')">ABOUT ME</a></p>
+    
+    <div id="aboutme">
+        <button class="close" onclick="closeWindow('aboutme')">X</button>
+        <img class="portfoliopic" src="images/portfoliopic1.png">
+        <h1 class="name">Matheus Leal</h1>
+        <div class="aboutMeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus risus non lorem tincidunt, sed efficitur risus iaculis. 
+            Pellentesque pellentesque pharetra vehicula. Aenean eget pellentesque justo. Aliquam in hendrerit odio. Duis pharetra est magna, sit amet posuere 
+            felis malesuada non. Proin quis finibus metus. Nullam nec libero et velit porta placerat nec a ante. Praesent id porttitor nisl. Aenean ex ante, 
+            tempor in dolor ac, rhoncus porttitor enim.
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
