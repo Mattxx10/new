@@ -6,6 +6,10 @@
     from{ opacity: 0 }
     to{ opacity: 1 }
   }
+  @keyframes expand {
+    from{ height: 0 }
+    to{ height: 600px }
+  }
   @font-face {
     font-family: 'sora'; /*a name to be used later*/
     src: url('fonts/Sora-Bold.ttf'); /*URL to font*/
@@ -181,6 +185,52 @@ a{
     font-family: 'sora';
     letter-spacing: 1px;
 }
+#aboutme{
+    z-index:3;
+    background-color:white;
+    position:fixed;
+    width: 700px;
+    height:600px;
+    margin-top: -500px;
+    margin-left:30vw;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    display:block;
+    background-color:rgba(255, 255, 255);
+    animation: expand 0.4s linear forwards;
+    overflow-y: hidden;
+}
+.close{
+    margin-top:3vh;
+    margin-left: 90%;
+    color:black;
+    background-color: white;
+    font-family: sora;
+    font-size: 25px;
+    border: 0px;
+}
+.portfoliopic{
+    display:block;
+    height: auto;
+    width:200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.name{
+    font-family: sora;
+    text-align:center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.aboutMeText{
+    width: 600px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sora;
+}
 a:hover{
     color:black;
 }
@@ -287,7 +337,7 @@ a:hover{
             margin-left:auto;
             margin-right:auto;
             box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
-            display:block;
+            display:none;
         }
         .close{
             margin-top:3vh;
@@ -313,11 +363,13 @@ a:hover{
         }
         .aboutMeText{
             width: 300px;
-            font-size: 20px;
-            text-align: justify;
+            font-size: 17px;
+            text-align: center;
+            line-height: 28px;
             margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
+            font-family: sora;
         }
     
     }
@@ -427,7 +479,7 @@ a:hover{
         margin-left:auto;
         margin-right:auto;
         box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
-        display:block;
+        display:none;
     }
     .close{
         margin-top:3vh;
@@ -453,10 +505,13 @@ a:hover{
     }
     .aboutMeText{
         width: 300px;
-        text-align: justify;
-        margin-top: 50px;
+        font-size: 17px;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
+        font-family: sora;
     }
 
 }
