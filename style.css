@@ -350,8 +350,9 @@ a:hover{
             color:black;
             background-color: white;
             font-family: sora;
-            font-size: 25px;
+            font-size: 45px;
             border: 0px;
+            transform: rotate(45deg);
         }
         .portfoliopic{
             display:block;
@@ -492,8 +493,9 @@ a:hover{
         color:black;
         background-color: white;
         font-family: sora;
-        font-size: 25px;
+        font-size: 45px;
         border: 0px;
+        transform: rotate(45deg);
     }
     .portfoliopic{
         display:block;
