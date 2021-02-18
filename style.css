@@ -200,13 +200,18 @@ a{
     overflow-y: hidden;
 }
 .close{
-    margin-top:3vh;
+    margin-top:2vh;
     margin-left: 90%;
     color:black;
     background-color: white;
     font-family: sora;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 45px;
     border: 0px;
+    transform: rotate(45deg);
+}
+textarea:focus, button:focus{
+    outline: none;
 }
 .portfoliopic{
     display:block;
