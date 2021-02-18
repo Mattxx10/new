@@ -256,6 +256,7 @@ textarea:focus, button:focus{
     background-color:rgba(255, 255, 255);
     animation: expand 0.4s ease-in-out forwards;
     overflow-y: hidden;
+    padding-bottom:30px;
 }
 .logopic{
     display:block;
@@ -271,19 +272,21 @@ textarea:focus, button:focus{
     margin-top: 30px;
 }
 .ref-container{
-    width: 150px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 .ref-name{
+    text-align: center;
     font-family: sora;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
     text-decoration: underline;
 }
 .ref-info{
+    text-align: center;
     font-family: sora;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
     text-decoration: italic;
 }
