@@ -166,7 +166,7 @@
 }
 .desktoplinks{
     margin-top:70px;
-    width: 805px;
+    width: 1105px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -188,16 +188,19 @@ a{
 
 #aboutme{
     z-index:3;
-    position: fixed;
+    position: absolute;
     background-color:white;
     width: 700px;
     height:600px;
-    margin-top: -600px;
-    margin-left:23vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     display:block;
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
     background-color:rgba(255, 255, 255);
-    animation: expand 0.4s linear forwards;
+    animation: expand 0.4s ease-in-out forwards;
     overflow-y: hidden;
 }
 .close{
