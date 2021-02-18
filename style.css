@@ -197,7 +197,7 @@ a{
     right: 0;
     bottom: 0;
     margin: auto;
-    display:block;
+    display:none;
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
     background-color:rgba(255, 255, 255);
     animation: expand 0.4s ease-in-out forwards;
@@ -240,6 +240,54 @@ textarea:focus, button:focus{
     margin-right: auto;
     font-family: sora;
 }
+#references{
+    z-index:3;
+    position: absolute;
+    background-color:white;
+    width: 700px;
+    height:600px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display:block;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255);
+    animation: expand 0.4s ease-in-out forwards;
+    overflow-y: hidden;
+}
+.logopic{
+    display:block;
+    height: auto;
+    width:100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.ref-header{
+    font-family: sora;
+    text-align:center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.ref-container{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ref-name{
+    font-family: sora;
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.ref-info{
+    font-family: sora;
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: italic;
+}
+
 a:hover{
     color:black;
 }
@@ -342,7 +390,7 @@ a:hover{
             position:absolute;
             width: 100vw;
             height:80vh;
-            margin-top:-500px;
+            margin-top:50px;
             margin-left:auto;
             margin-right:auto;
             box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
@@ -380,6 +428,48 @@ a:hover{
             margin-left: auto;
             margin-right: auto;
             font-family: sora;
+        }
+        #references{
+            z-index:3;
+            background-color:white;
+            position:absolute;
+            width: 100vw;
+            height:80vh;
+            margin-top:-500px;
+            margin-left:auto;
+            margin-right:auto;
+            box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+            display:none;
+        }
+        .logopic{
+            display:block;
+            height: auto;
+            width:100px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .ref-header{
+            font-family: sora;
+            text-align:center;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+        .ref-container{
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ref-name{
+            font-family: sora;
+            font-size: 18px;
+            margin-top: 10px;
+            text-decoration: underline;
+        }
+        .ref-info{
+            font-family: sora;
+            font-size: 14px;
+            margin-top: 5px;
+            text-decoration: italic;
         }
     
     }
@@ -485,7 +575,7 @@ a:hover{
         position:absolute;
         width: 100vw;
         height:80vh;
-        margin-top:-500px;
+        margin-top:30px;
         margin-left:auto;
         margin-right:auto;
         box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
@@ -524,5 +614,48 @@ a:hover{
         margin-right: auto;
         font-family: sora;
     }
+    #references{
+        z-index:3;
+        background-color:white;
+        position:absolute;
+        width: 100vw;
+        height:80vh;
+        margin-top:30px;
+        margin-left:auto;
+        margin-right:auto;
+        box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+        display:none;
+    }
+    .logopic{
+        display:block;
+        height: auto;
+        width:100px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .ref-header{
+        font-family: sora;
+        text-align:center;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .ref-container{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ref-name{
+        font-family: sora;
+        font-size: 18px;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+    .ref-info{
+        font-family: sora;
+        font-size: 14px;
+        margin-top: 5px;
+        text-decoration: italic;
+    }
+
 
 }
