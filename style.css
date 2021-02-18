@@ -643,19 +643,19 @@ a:hover{
         margin-top: 30px;
     }
     .ref-container{
-        width: 150px;
+        width: 250px;
         margin-left: auto;
         margin-right: auto;
     }
     .ref-name{
         font-family: sora;
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 10px;
         text-decoration: underline;
     }
     .ref-info{
         font-family: sora;
-        font-size: 14px;
+        font-size: 18px;
         margin-top: 5px;
         text-decoration: italic;
     }
