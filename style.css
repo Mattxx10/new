@@ -10,6 +10,10 @@
     from{ height: 0 }
     to{ height: 600px }
   }
+  @keyframes expand2 {
+    from{ height: 0 }
+    to{ height: 300px }
+  }
   @font-face {
     font-family: 'sora'; /*a name to be used later*/
     src: url('fonts/Sora-Bold.ttf'); /*URL to font*/
@@ -213,6 +217,7 @@ a{
     font-size: 45px;
     border: 0px;
     transform: rotate(45deg);
+    cursor: pointer;
 }
 textarea:focus, button:focus{
     outline: none;
@@ -251,7 +256,7 @@ textarea:focus, button:focus{
     right: 0;
     bottom: 0;
     margin: auto;
-    display:block;
+    display:none;
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
     background-color:rgba(255, 255, 255);
     animation: expand 0.4s ease-in-out forwards;
@@ -289,6 +294,48 @@ textarea:focus, button:focus{
     font-size: 16px;
     margin-top: 5px;
     text-decoration: italic;
+}
+#resume{
+    z-index:3;
+    position: absolute;
+    background-color:white;
+    width: 400px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display:none;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255);
+    animation: expand2 0.4s ease-in-out forwards;
+    overflow-y: hidden;
+    padding-bottom:30px;
+}
+.resume-header{
+    font-family: sora;
+    text-align:center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#resume .close{
+    margin-left: 85%;
+}
+
+.resume-links{
+    padding-left:25px;
+    width: 300px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+.resume-links a{
+    letter-spacing: 5px;
 }
 
 a:hover{
@@ -393,14 +440,14 @@ a:hover{
             position:absolute;
             width: 100vw;
             height:80vh;
-            margin-top:50px;
+            margin-top:0px;
             margin-left:auto;
             margin-right:auto;
             box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
             display:none;
         }
         .close{
-            margin-top:3vh;
+            margin-top:2vh;
             margin-left:90vw;
             color:black;
             background-color: white;
@@ -438,7 +485,7 @@ a:hover{
             position:absolute;
             width: 100vw;
             height:80vh;
-            margin-top:-500px;
+            margin-top:-550px;
             margin-left:auto;
             margin-right:auto;
             box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
@@ -580,14 +627,14 @@ a:hover{
         position:absolute;
         width: 100vw;
         height:80vh;
-        margin-top:30px;
+        margin-top:0px;
         margin-left:auto;
         margin-right:auto;
         box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
         display:none;
     }
     .close{
-        margin-top:3vh;
+        margin-top:2vh;
         margin-left:90vw;
         color:black;
         background-color: white;
@@ -625,7 +672,7 @@ a:hover{
         position:absolute;
         width: 100vw;
         height:80vh;
-        margin-top:30px;
+        margin-top:0px;
         margin-left:auto;
         margin-right:auto;
         box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
