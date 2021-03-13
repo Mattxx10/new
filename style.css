@@ -380,6 +380,49 @@ textarea:focus, button:focus{
     font-size: 25px;
 }
 
+#portfolio{
+    z-index:3;
+    position: absolute;
+    background-color:white;
+    width: 750px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display:none;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255);
+    animation: expand2 0.4s ease-in-out forwards;
+    overflow-y: hidden;
+    padding-bottom:30px;
+}
+.portfolio-header{
+    font-family: sora;
+    text-align:center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#portfolio .close{
+    margin-left: 90%;
+}
+
+.portfolio-links{
+    width: 700px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+.portfolio-links a{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
 a:hover{
     color:black;
 }
@@ -564,6 +607,12 @@ a:hover{
             font-size: 14px;
             margin-top: 5px;
             text-decoration: italic;
+        }
+        .contact{
+            width: 100vw;
+        }
+        .contact-links{
+                font-size: 15px;
         }
     
     }
@@ -751,6 +800,35 @@ a:hover{
         margin-top: 5px;
         text-decoration: italic;
     }
-
-
+    #contact{
+        width: 100vw;
+    }
+    .contact-links{
+        width:100vw;
+    }
+    .contact-links a{
+        display: block;
+        font-size: 20px;
+        width: 280px;
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    #portfolio{
+        width: 100vw;
+        padding-bottom: 70px;
+    }
+    .portfolio-links{
+        width:100vw;
+    }
+    .portfolio-links a{
+        display: block;
+        font-size: 20px;
+        width: 280px;
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
 }
